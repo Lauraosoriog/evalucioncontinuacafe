@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, Arial;
+}
+
+:root{
+    --color-back-1: rgb(253, 253, 253);
+    --color-emphasis:#053617;
+    --width-content: 1200px;
+}
+
+
+.width-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* empieza body--- */
+
+header img{
+    width: 100%;
+}
+
+header div {
+    font-size: 150%;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 60%;
+}
+
+h1,h2,h3{
+    font-family: "Dancing script", cursive;
+}
+
+h3 {
+font-size: 55px ;
+}
+
+.h2-opiniones{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* barra de navegacion */
+nav{
+    position: sticky;
+    top: 0;
+    background-color: rgb(39, 123, 95);
+    z-index: 2;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #053617;
+    padding: 10px;
+}
+
+.nav-ul > li {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.nav-ul > li:hover {
+    color: white;
+    background-color: #05361762;
+    border-radius: 10px;
+    
+}
+    
+.nav-ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1,5rem;
+}
+
+/* main  */
+.colordos {
+    background-color: rgb(37, 53, 13);
+
+}
+
+.colortres{
+background-color:rgb(234, 223, 130);
+}
+.colorcuatro{
+    background-color: bisque;
+}
+
+article p {
+    font-size: 20px;
+}
+
+.article-division {
+    display: flex;
+}
+
+.article-division img,
+.article-division video {
+max-width: 50%;
+}
+
+.article-division p {
+font-size: 26px;
+
+}
+
+.article-division > div {
+padding: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.section-fondo {
+background-color: rgb(39, 123, 95);  
+color: white;
+}
+
+.div-opiones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-opiones > article {
+    width: 30%;
+}
+
+.div-opiones  p {
+    font-style: oblique;
+}
+
+.parrafo-span{
+    font-size: 20px;
+    color: red;
+    text-align: end;
+}
+
+/* footer pie de pagina */
+
+footer{
+    margin-top: 30px;
+    background-color: #053617;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-div{
+display: flex;
+justify-content: space-between;
+
+}
+
+.footer-div > div {
+    width: 16%;
+}
+.iconos {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 18px;
+}
+.iconos img {
+    width: 20%;
+}
+.negrilla {
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+/* variedadess */
+.letrablanca{
+    color: white;
+}
+.titulodevariedad {
+    font-size: 100px;
+}
+.separar{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+/* tienda pagina  */
+.mapa {
+    text-align: center;
+    border-top: 50px;
+}
+.mapa > h2{
+    font-size: 60px;
+}
+.titulotienda{
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+}
+
+/* sobre nosotross */
+.sobrenosotros{
+    border-top: 100px;
+    max-width: 1200px;
+    margin: 20px auto;
+    
+}
+
+
+.sobrenosotros >h2 {
+    font-size: 60px;
+    text-align: center;
+}
+.titulosobrenosotros{
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+} 
