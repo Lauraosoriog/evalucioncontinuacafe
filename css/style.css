@@ -211,7 +211,8 @@ justify-content: space-between;
 .sobrenosotros{
     border-top: 100px;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 40px auto;
+    border-bottom: 60px;
     
 }
 
@@ -219,6 +220,13 @@ justify-content: space-between;
 .sobrenosotros >h2 {
     font-size: 60px;
     text-align: center;
+    margin-left: 100px;
+    
+
+}
+.ajustar1 {
+    margin-left: 100px;
+    margin-top: 20px;
 }
 .titulosobrenosotros{
     font-size: 100px;
